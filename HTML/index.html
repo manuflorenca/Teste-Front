@@ -7,60 +7,82 @@
     <link rel="stylesheet" href="/CSS/index.css">
 </head>
 <body>
-    
     <header></header>
-     <div class="page-content">
-    <main>
 
-        <h1>Exibindo resultado de busca por "Covid 19"</h1>
-
-        <div class="container">
-            <div class="row">
-              <div class="col">
-                <img src="/assets/img_covid.jpg" alt="imagem do vírus">
-                <div class="info-cotainer">
-                    <h3>Como a doença é transmitida?</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem optio, earum cum ab itaque dolore totam necessitatibus officia consequatur voluptatibus in ex dicta ipsam alias quisquam vel facilis corrupti accusamus?</p>
+    <div class="page-content">
+        <main>
+            <h1>Exibindo resultado de busca por "Covid 19"</h1>
+            <p class="subtitle">Encontramos um total de 20 resultados para a sua busca</p>
+            
+            <div class="cards-grid">
+                <div class="card">
+                    <img src="/assets/img_covid.jpg" alt="imagem do vírus">
+                    <div class="card-content">
+                        <h3>Coronavírus: como a doença é transmitida?</h3>
+                        <p>Saiba o que é o coronavírus, em quanto tempo a doença pode se manifestar e quais são os principais sintomas.</p>
+                        <a href="#">Ler mais</a>
+                    </div>
                 </div>
+                <div class="card">
+                  <img src="/assets/img_covid.jpg" alt="imagem do vírus">
+                  <div class="card-content">
+                      <h3>Coronavírus: como a doença é transmitida?</h3>
+                      <p>Saiba o que é o coronavírus, em quanto tempo a doença pode se manifestar e quais são os principais sintomas.</p>
+                      <a href="#">Ler mais</a>
+                  </div>
               </div>
-              <div class="col">
+              <div class="card">
                 <img src="/assets/img_covid.jpg" alt="imagem do vírus">
-                <div class="info-cotainer">
-                    <h3>Como a doença é transmitida?</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem optio, earum cum ab itaque dolore totam necessitatibus officia consequatur voluptatibus in ex dicta ipsam alias quisquam vel facilis corrupti accusamus?</p>
+                <div class="card-content">
+                    <h3>Coronavírus: como a doença é transmitida?</h3>
+                    <p>Saiba o que é o coronavírus, em quanto tempo a doença pode se manifestar e quais são os principais sintomas.</p>
+                    <a href="#">Ler mais</a>
                 </div>
-              </div>
-              <div class="col">
-                <img src="/assets/img_covid.jpg" alt="imagem do vírus">
-                <div class="info-cotainer">
-                    <h3>Como a doença é transmitida?</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem optio, earum cum ab itaque dolore totam necessitatibus officia consequatur voluptatibus in ex dicta ipsam alias quisquam vel facilis corrupti accusamus?</p>
-                </div>
-              </div>
-              <div class="col">
-                <img src="/assets/img_covid.jpg" alt="imagem do vírus">
-                <div class="info-cotainer">
-                    <h3>Como a doença é transmitida?</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem optio, earum cum ab itaque dolore totam necessitatibus officia consequatur voluptatibus in ex dicta ipsam alias quisquam vel facilis corrupti accusamus?</p>
-                </div>
-              </div>
             </div>
-          </div>        
+            <div class="card">
+              <img src="/assets/img_covid.jpg" alt="imagem do vírus">
+              <div class="card-content">
+                  <h3>Coronavírus: como a doença é transmitida?</h3>
+                  <p>Saiba o que é o coronavírus, em quanto tempo a doença pode se manifestar e quais são os principais sintomas.</p>
+                  <a href="#">Ler mais</a>
+              </div>
+          </div>
+          <div class="card">
+            <img src="/assets/img_covid.jpg" alt="imagem do vírus">
+            <div class="card-content">
+                <h3>Coronavírus: como a doença é transmitida?</h3>
+                <p>Saiba o que é o coronavírus, em quanto tempo a doença pode se manifestar e quais são os principais sintomas.</p>
+                <a href="#">Ler mais</a>
+            </div>
+        </div>
+        <div class="card">
+          <img src="/assets/img_covid.jpg" alt="imagem do vírus">
+          <div class="card-content">
+              <h3>Coronavírus: como a doença é transmitida?</h3>
+              <p>Saiba o que é o coronavírus, em quanto tempo a doença pode se manifestar e quais são os principais sintomas.</p>
+              <a href="#">Ler mais</a>
+          </div>
+      </div>
+            </div>
+        </main>
 
-    </main>
-    <section>
-        <h2>Categorias</h2>
-        <p>Doenças</p>
-        <p>Doenças</p>
-        <p>Doenças</p>
-        <p>Doenças</p>
-        <h2>Procurando alguma noticia?</h2>
-        <form action="/buscar" method="GET">
-            <input type="search" name="q" placeholder="Pesquisar...">
-          </form>
-          
-    </section>
+        <aside>
+            <h2>Categorias</h2>
+            <ul>
+                <li><a href="">Saúde</a></li>
+                <li><a href="">Tragedias</a></li>
+                <li><a href="">Educação</a></li>
+                <li><a href="">Politica</a></li>
+            </ul>
+            <h2>Procurando alguma notícia?</h2>
+            <form action="/buscar" method="GET">
+                <input type="search" name="q" placeholder="Pesquisar...">
+            </form>
+            <h2 class="tituloNoticia">Cadastrar noticias</h2>
+            <p>Quer cadastrar uma noticia em nosso site? <a href="./cadastrar.html">clique aqui</a> </p>
+        </aside>
+    </div>
+
     <footer></footer>
-    
 </body>
 </html>
